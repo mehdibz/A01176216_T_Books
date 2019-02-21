@@ -1,0 +1,428 @@
+2019-02-19 18:20:39.471 [main] INFO  a00123456.book.BookStore - Starting Books
+2019-02-19 18:20:39.484 [main] INFO  a00123456.book.BookStore - 2019-02-20T02:20:39.475733Z
+2019-02-19 18:20:39.485 [main] DEBUG a00123456.book.BookStore - Input args: []
+2019-02-19 18:20:39.493 [main] DEBUG a00123456.book.BookStore - run()
+2019-02-19 18:20:39.494 [main] DEBUG a00123456.book.data.AllData - loading the data
+2019-02-19 18:20:39.501 [main] DEBUG a00123456.book.io.BookReader - Reading/Users/scirka/Documents/bcit/Solutions/Books/books500.csv
+2019-02-19 18:20:39.537 [main] DEBUG a00123456.book.io.CustomerReader - Reading/Users/scirka/Documents/bcit/Solutions/Books/customers.dat
+2019-02-19 18:20:39.539 [main] DEBUG a00123456.book.io.CustomerReader - line: 8626|Mechelle|Gutierrez|517-8533 Semper St.|Gatineau|705090|776-427-8269|cursus.purus.Nullam@euismodmauris.net|20180717
+2019-02-19 18:20:39.541 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=8626, firstName=Mechelle, lastName=Gutierrez, street=517-8533 Semper St., city=Gatineau, postalCode=705090, phone=776-427-8269, emailAddress=cursus.purus.Nullam@euismodmauris.net, joinedDate=2018-07-17] as 8626
+2019-02-19 18:20:39.541 [main] DEBUG a00123456.book.io.CustomerReader - customer 1
+2019-02-19 18:20:39.542 [main] DEBUG a00123456.book.io.CustomerReader - line: 7849|Rhonda|Oconnor|3063 Eleifend Rd.|Marchihue|67963|718-779-2797|Quisque.imperdiet@enimmi.org|20170907
+2019-02-19 18:20:39.542 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=7849, firstName=Rhonda, lastName=Oconnor, street=3063 Eleifend Rd., city=Marchihue, postalCode=67963, phone=718-779-2797, emailAddress=Quisque.imperdiet@enimmi.org, joinedDate=2017-09-07] as 7849
+2019-02-19 18:20:39.542 [main] DEBUG a00123456.book.io.CustomerReader - customer 2
+2019-02-19 18:20:39.542 [main] DEBUG a00123456.book.io.CustomerReader - line: 1175|Jescie|Mcbride|Ap #944-4855 Erat, St.|Santa Juana|58209|725-538-4828|quis.urna@semperauctor.co.uk|20080217
+2019-02-19 18:20:39.543 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=1175, firstName=Jescie, lastName=Mcbride, street=Ap #944-4855 Erat, St., city=Santa Juana, postalCode=58209, phone=725-538-4828, emailAddress=quis.urna@semperauctor.co.uk, joinedDate=2008-02-17] as 1175
+2019-02-19 18:20:39.543 [main] DEBUG a00123456.book.io.CustomerReader - customer 3
+2019-02-19 18:20:39.543 [main] DEBUG a00123456.book.io.CustomerReader - line: 6990|Ginger|Bush|Ap #883-6921 Vel Avenue|Alma|3206 HY|309913-6223|magna@tellus.com|20111109
+2019-02-19 18:20:39.543 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=6990, firstName=Ginger, lastName=Bush, street=Ap #883-6921 Vel Avenue, city=Alma, postalCode=3206 HY, phone=309913-6223, emailAddress=magna@tellus.com, joinedDate=2011-11-09] as 6990
+2019-02-19 18:20:39.543 [main] DEBUG a00123456.book.io.CustomerReader - customer 4
+2019-02-19 18:20:39.544 [main] DEBUG a00123456.book.io.CustomerReader - line: 5969|Shaine|Bush|9901 Mollis Street|Blind River|KX0 5XK|892-9096259|elit@pede.com|20090905
+2019-02-19 18:20:39.544 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=5969, firstName=Shaine, lastName=Bush, street=9901 Mollis Street, city=Blind River, postalCode=KX0 5XK, phone=892-9096259, emailAddress=elit@pede.com, joinedDate=2009-09-05] as 5969
+2019-02-19 18:20:39.544 [main] DEBUG a00123456.book.io.CustomerReader - customer 5
+2019-02-19 18:20:39.544 [main] DEBUG a00123456.book.io.CustomerReader - line: 1739|Kaitlin|Oneil|P.O. Box 329, 9608 Tortor Road|Diegem|64447|834-890-3976|enim.sit.amet@sedlibero.edu|20140412
+2019-02-19 18:20:39.545 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=1739, firstName=Kaitlin, lastName=Oneil, street=P.O. Box 329, 9608 Tortor Road, city=Diegem, postalCode=64447, phone=834-890-3976, emailAddress=enim.sit.amet@sedlibero.edu, joinedDate=2014-04-12] as 1739
+2019-02-19 18:20:39.545 [main] DEBUG a00123456.book.io.CustomerReader - customer 6
+2019-02-19 18:20:39.545 [main] DEBUG a00123456.book.io.CustomerReader - line: 5029|Alice|Patrick|P.O. Box 235, 3303 Felis St.|Sagrada Familia|4912|223-632-2361|nascetur@turpis.com|20070901
+2019-02-19 18:20:39.545 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=5029, firstName=Alice, lastName=Patrick, street=P.O. Box 235, 3303 Felis St., city=Sagrada Familia, postalCode=4912, phone=223-632-2361, emailAddress=nascetur@turpis.com, joinedDate=2007-09-01] as 5029
+2019-02-19 18:20:39.545 [main] DEBUG a00123456.book.io.CustomerReader - customer 7
+2019-02-19 18:20:39.545 [main] DEBUG a00123456.book.io.CustomerReader - line: 5017|Serena|Wiley|1110 Porttitor St.|Motta Sant'Anastasia|G72 7NL|482-289-3232|mauris.Integer@Suspendissetristique.net|20111003
+2019-02-19 18:20:39.546 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=5017, firstName=Serena, lastName=Wiley, street=1110 Porttitor St., city=Motta Sant'Anastasia, postalCode=G72 7NL, phone=482-289-3232, emailAddress=mauris.Integer@Suspendissetristique.net, joinedDate=2011-10-03] as 5017
+2019-02-19 18:20:39.546 [main] DEBUG a00123456.book.io.CustomerReader - customer 8
+2019-02-19 18:20:39.546 [main] DEBUG a00123456.book.io.CustomerReader - line: 9475|Roary|Haney|P.O. Box 562, 799 Suspendisse Av.|Brive-la-Gaillarde|4890|868-738-1588|libero.ligula@quispedeSuspendisse.edu|20130724
+2019-02-19 18:20:39.546 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=9475, firstName=Roary, lastName=Haney, street=P.O. Box 562, 799 Suspendisse Av., city=Brive-la-Gaillarde, postalCode=4890, phone=868-738-1588, emailAddress=libero.ligula@quispedeSuspendisse.edu, joinedDate=2013-07-24] as 9475
+2019-02-19 18:20:39.547 [main] DEBUG a00123456.book.io.CustomerReader - customer 9
+2019-02-19 18:20:39.547 [main] DEBUG a00123456.book.io.CustomerReader - line: 6494|Ivy|Dunn|P.O. Box 195, 4490 Pellentesque Avenue|Feilding|2824|884-129-5573|sociosqu.ad@luctussit.com|20120403
+2019-02-19 18:20:39.547 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=6494, firstName=Ivy, lastName=Dunn, street=P.O. Box 195, 4490 Pellentesque Avenue, city=Feilding, postalCode=2824, phone=884-129-5573, emailAddress=sociosqu.ad@luctussit.com, joinedDate=2012-04-03] as 6494
+2019-02-19 18:20:39.547 [main] DEBUG a00123456.book.io.CustomerReader - customer 10
+2019-02-19 18:20:39.547 [main] DEBUG a00123456.book.io.CustomerReader - line: 4188|Althea|Clay|532-8277 Egestas Avenue|Achalpur|98691|238-343-3229|libero@dolorelit.com|20151016
+2019-02-19 18:20:39.548 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=4188, firstName=Althea, lastName=Clay, street=532-8277 Egestas Avenue, city=Achalpur, postalCode=98691, phone=238-343-3229, emailAddress=libero@dolorelit.com, joinedDate=2015-10-16] as 4188
+2019-02-19 18:20:39.548 [main] DEBUG a00123456.book.io.CustomerReader - customer 11
+2019-02-19 18:20:39.548 [main] DEBUG a00123456.book.io.CustomerReader - line: 6357|Imogene|Jimenez|Ap #330-6937 Nunc Rd.|Westmeerbeek|7785|161-257-3712|magna.tellus@dictumProin.org|20041217
+2019-02-19 18:20:39.548 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=6357, firstName=Imogene, lastName=Jimenez, street=Ap #330-6937 Nunc Rd., city=Westmeerbeek, postalCode=7785, phone=161-257-3712, emailAddress=magna.tellus@dictumProin.org, joinedDate=2004-12-17] as 6357
+2019-02-19 18:20:39.548 [main] DEBUG a00123456.book.io.CustomerReader - customer 12
+2019-02-19 18:20:39.548 [main] DEBUG a00123456.book.io.CustomerReader - line: 6324|Lucy|Hodges|3098129 Vulputate, St.|Kaduna|C4T 3K8|836-350-1911|lacus.varius@nonvestibulumnec.org|20090424
+2019-02-19 18:20:39.549 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=6324, firstName=Lucy, lastName=Hodges, street=3098129 Vulputate, St., city=Kaduna, postalCode=C4T 3K8, phone=836-350-1911, emailAddress=lacus.varius@nonvestibulumnec.org, joinedDate=2009-04-24] as 6324
+2019-02-19 18:20:39.549 [main] DEBUG a00123456.book.io.CustomerReader - customer 13
+2019-02-19 18:20:39.549 [main] DEBUG a00123456.book.io.CustomerReader - line: 9352|Jane|Contreras|Ap #639-6936 Eu, St.|Fernie|946235|270-763-1794|euismod@Namligula.co.uk|20160919
+2019-02-19 18:20:39.549 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=9352, firstName=Jane, lastName=Contreras, street=Ap #639-6936 Eu, St., city=Fernie, postalCode=946235, phone=270-763-1794, emailAddress=euismod@Namligula.co.uk, joinedDate=2016-09-19] as 9352
+2019-02-19 18:20:39.550 [main] DEBUG a00123456.book.io.CustomerReader - customer 14
+2019-02-19 18:20:39.550 [main] DEBUG a00123456.book.io.CustomerReader - line: 8479|Montana|Carr|P.O. Box 860, 8778 Molestie Street|Casper|26477|886-819-0556|Etiam.bibendum@quam.edu|20110514
+2019-02-19 18:20:39.550 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=8479, firstName=Montana, lastName=Carr, street=P.O. Box 860, 8778 Molestie Street, city=Casper, postalCode=26477, phone=886-819-0556, emailAddress=Etiam.bibendum@quam.edu, joinedDate=2011-05-14] as 8479
+2019-02-19 18:20:39.550 [main] DEBUG a00123456.book.io.CustomerReader - customer 15
+2019-02-19 18:20:39.550 [main] DEBUG a00123456.book.io.CustomerReader - line: 3897|Uma|Garrison|9226 Ut Rd.|Ortacesus|7773|218-162-9055|enim@lorem.co.uk|20030927
+2019-02-19 18:20:39.550 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=3897, firstName=Uma, lastName=Garrison, street=9226 Ut Rd., city=Ortacesus, postalCode=7773, phone=218-162-9055, emailAddress=enim@lorem.co.uk, joinedDate=2003-09-27] as 3897
+2019-02-19 18:20:39.551 [main] DEBUG a00123456.book.io.CustomerReader - customer 16
+2019-02-19 18:20:39.551 [main] DEBUG a00123456.book.io.CustomerReader - line: 5843|Ciara|Merritt|189 Magna. Rd.|Nocciano|2879 JT|541-125-4966|Integer@dictummi.net|20060421
+2019-02-19 18:20:39.551 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=5843, firstName=Ciara, lastName=Merritt, street=189 Magna. Rd., city=Nocciano, postalCode=2879 JT, phone=541-125-4966, emailAddress=Integer@dictummi.net, joinedDate=2006-04-21] as 5843
+2019-02-19 18:20:39.551 [main] DEBUG a00123456.book.io.CustomerReader - customer 17
+2019-02-19 18:20:39.551 [main] DEBUG a00123456.book.io.CustomerReader - line: 9292|Sade|Golden|929-7224 Scelerisque St.|Chiniot|0841 CQ|407586-6535|Duis.cursus.diam@justo.co.uk|20071107
+2019-02-19 18:20:39.552 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=9292, firstName=Sade, lastName=Golden, street=929-7224 Scelerisque St., city=Chiniot, postalCode=0841 CQ, phone=407586-6535, emailAddress=Duis.cursus.diam@justo.co.uk, joinedDate=2007-11-07] as 9292
+2019-02-19 18:20:39.552 [main] DEBUG a00123456.book.io.CustomerReader - customer 18
+2019-02-19 18:20:39.552 [main] DEBUG a00123456.book.io.CustomerReader - line: 6713|Dana|Reid|Ap #930-5716 Vitae Street|Coutisse|752581|790-7070537|lectus@quisaccumsan.co.uk|20100920
+2019-02-19 18:20:39.552 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=6713, firstName=Dana, lastName=Reid, street=Ap #930-5716 Vitae Street, city=Coutisse, postalCode=752581, phone=790-7070537, emailAddress=lectus@quisaccumsan.co.uk, joinedDate=2010-09-20] as 6713
+2019-02-19 18:20:39.552 [main] DEBUG a00123456.book.io.CustomerReader - customer 19
+2019-02-19 18:20:39.552 [main] DEBUG a00123456.book.io.CustomerReader - line: 5279|Zephr|Dean|1991 Lectus. Rd.|Bozeman|6755|759-8055996|Mauris.molestie@fermentumrisusat.net|20180714
+2019-02-19 18:20:39.553 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=5279, firstName=Zephr, lastName=Dean, street=1991 Lectus. Rd., city=Bozeman, postalCode=6755, phone=759-8055996, emailAddress=Mauris.molestie@fermentumrisusat.net, joinedDate=2018-07-14] as 5279
+2019-02-19 18:20:39.553 [main] DEBUG a00123456.book.io.CustomerReader - customer 20
+2019-02-19 18:20:39.553 [main] DEBUG a00123456.book.io.CustomerReader - line: 1399|Bryar|Lewis|552-8294 Egestas St.|Serampore|C2T 2WF|905432-1638|dolor@atarcuVestibulum.co.uk|20040920
+2019-02-19 18:20:39.553 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=1399, firstName=Bryar, lastName=Lewis, street=552-8294 Egestas St., city=Serampore, postalCode=C2T 2WF, phone=905432-1638, emailAddress=dolor@atarcuVestibulum.co.uk, joinedDate=2004-09-20] as 1399
+2019-02-19 18:20:39.553 [main] DEBUG a00123456.book.io.CustomerReader - customer 21
+2019-02-19 18:20:39.554 [main] DEBUG a00123456.book.io.CustomerReader - line: 7525|Ora|Nunez|8717 Ac Rd.|Township of Minden Hills|6780|526-175-7582|elit.sed@necimperdietnec.ca|20130721
+2019-02-19 18:20:39.554 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=7525, firstName=Ora, lastName=Nunez, street=8717 Ac Rd., city=Township of Minden Hills, postalCode=6780, phone=526-175-7582, emailAddress=elit.sed@necimperdietnec.ca, joinedDate=2013-07-21] as 7525
+2019-02-19 18:20:39.554 [main] DEBUG a00123456.book.io.CustomerReader - customer 22
+2019-02-19 18:20:39.554 [main] DEBUG a00123456.book.io.CustomerReader - line: 9588|Alea|Herman|P.O. Box 284, 9613 Vel Rd.|Villers-lez-Heest|81431|588-266-3604|ultricies.adipiscing.enim@vitae.edu|20080903
+2019-02-19 18:20:39.554 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=9588, firstName=Alea, lastName=Herman, street=P.O. Box 284, 9613 Vel Rd., city=Villers-lez-Heest, postalCode=81431, phone=588-266-3604, emailAddress=ultricies.adipiscing.enim@vitae.edu, joinedDate=2008-09-03] as 9588
+2019-02-19 18:20:39.555 [main] DEBUG a00123456.book.io.CustomerReader - customer 23
+2019-02-19 18:20:39.555 [main] DEBUG a00123456.book.io.CustomerReader - line: 6368|Roary|Puckett|P.O. Box 652, 135 Ornare, Avenue|Sint-Kwintens-Lennik|105321|167-2029815|sem@aliquamenimnec.org|20031129
+2019-02-19 18:20:39.555 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=6368, firstName=Roary, lastName=Puckett, street=P.O. Box 652, 135 Ornare, Avenue, city=Sint-Kwintens-Lennik, postalCode=105321, phone=167-2029815, emailAddress=sem@aliquamenimnec.org, joinedDate=2003-11-29] as 6368
+2019-02-19 18:20:39.555 [main] DEBUG a00123456.book.io.CustomerReader - customer 24
+2019-02-19 18:20:39.555 [main] DEBUG a00123456.book.io.CustomerReader - line: 4778|Zia|Hansen|5886 Mauris St.|Bonneville|48634-184|544-718-3561|Integer.tincidunt@scelerisquedui.com|20050731
+2019-02-19 18:20:39.555 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=4778, firstName=Zia, lastName=Hansen, street=5886 Mauris St., city=Bonneville, postalCode=48634-184, phone=544-718-3561, emailAddress=Integer.tincidunt@scelerisquedui.com, joinedDate=2005-07-31] as 4778
+2019-02-19 18:20:39.556 [main] DEBUG a00123456.book.io.CustomerReader - customer 25
+2019-02-19 18:20:39.556 [main] DEBUG a00123456.book.io.CustomerReader - line: 1567|Kirestin|Gill|P.O. Box 684, 9957 Aliquam Road|Hereford|1545|805671-1896|sed.tortor.Integer@pedemalesuada.co.uk|20060328
+2019-02-19 18:20:39.556 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=1567, firstName=Kirestin, lastName=Gill, street=P.O. Box 684, 9957 Aliquam Road, city=Hereford, postalCode=1545, phone=805671-1896, emailAddress=sed.tortor.Integer@pedemalesuada.co.uk, joinedDate=2006-03-28] as 1567
+2019-02-19 18:20:39.556 [main] DEBUG a00123456.book.io.CustomerReader - customer 26
+2019-02-19 18:20:39.557 [main] DEBUG a00123456.book.io.CustomerReader - line: 4957|Stacy|Pugh|585-1970 Id Avenue|Musselburgh|170066|285-9082346|pretium.neque@diam.net|20090408
+2019-02-19 18:20:39.558 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=4957, firstName=Stacy, lastName=Pugh, street=585-1970 Id Avenue, city=Musselburgh, postalCode=170066, phone=285-9082346, emailAddress=pretium.neque@diam.net, joinedDate=2009-04-08] as 4957
+2019-02-19 18:20:39.559 [main] DEBUG a00123456.book.io.CustomerReader - customer 27
+2019-02-19 18:20:39.560 [main] DEBUG a00123456.book.io.CustomerReader - line: 2893|Azalia|Estrada|Ap #3115145 Nec Av.|Cochrane|8903|494-349-3878|pretium.aliquet.metus@nonummysumnon.edu|20150120
+2019-02-19 18:20:39.560 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=2893, firstName=Azalia, lastName=Estrada, street=Ap #3115145 Nec Av., city=Cochrane, postalCode=8903, phone=494-349-3878, emailAddress=pretium.aliquet.metus@nonummysumnon.edu, joinedDate=2015-01-20] as 2893
+2019-02-19 18:20:39.560 [main] DEBUG a00123456.book.io.CustomerReader - customer 28
+2019-02-19 18:20:39.561 [main] DEBUG a00123456.book.io.CustomerReader - line: 6225|Libby|Crane|8000 Pede, St.|High Level|15618|904647-2676|metus@aliquetPhasellusfermentum.edu|20121216
+2019-02-19 18:20:39.561 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=6225, firstName=Libby, lastName=Crane, street=8000 Pede, St., city=High Level, postalCode=15618, phone=904647-2676, emailAddress=metus@aliquetPhasellusfermentum.edu, joinedDate=2012-12-16] as 6225
+2019-02-19 18:20:39.561 [main] DEBUG a00123456.book.io.CustomerReader - customer 29
+2019-02-19 18:20:39.561 [main] DEBUG a00123456.book.io.CustomerReader - line: 7799|Ora|Rosario|1995 Nunc Rd.|Tübingen|484331|846-223-6375|rhoncus@gravida.net|20140730
+2019-02-19 18:20:39.561 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=7799, firstName=Ora, lastName=Rosario, street=1995 Nunc Rd., city=Tübingen, postalCode=484331, phone=846-223-6375, emailAddress=rhoncus@gravida.net, joinedDate=2014-07-30] as 7799
+2019-02-19 18:20:39.562 [main] DEBUG a00123456.book.io.CustomerReader - customer 30
+2019-02-19 18:20:39.562 [main] DEBUG a00123456.book.io.CustomerReader - line: 6109|Portia|Ballard|Ap #757-5131 Sed, St.|Nothomb|64933-612|985-439-6274|mauris.Morbi@mattis.net|20150116
+2019-02-19 18:20:39.562 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=6109, firstName=Portia, lastName=Ballard, street=Ap #757-5131 Sed, St., city=Nothomb, postalCode=64933-612, phone=985-439-6274, emailAddress=mauris.Morbi@mattis.net, joinedDate=2015-01-16] as 6109
+2019-02-19 18:20:39.562 [main] DEBUG a00123456.book.io.CustomerReader - customer 31
+2019-02-19 18:20:39.562 [main] DEBUG a00123456.book.io.CustomerReader - line: 8261|Shelley|Kidd|Ap #528-5584 Lobortis. Street|Turriff|4600|647-950-3317|adipiscing@tristiquephareQuisque.com|20050529
+2019-02-19 18:20:39.563 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=8261, firstName=Shelley, lastName=Kidd, street=Ap #528-5584 Lobortis. Street, city=Turriff, postalCode=4600, phone=647-950-3317, emailAddress=adipiscing@tristiquephareQuisque.com, joinedDate=2005-05-29] as 8261
+2019-02-19 18:20:39.563 [main] DEBUG a00123456.book.io.CustomerReader - customer 32
+2019-02-19 18:20:39.563 [main] DEBUG a00123456.book.io.CustomerReader - line: 2926|Audra|Whitley|Ap #557-9221 Feugiat St.|Eernegem|90-910|576-485-2347|consectetuer.nunc@nisisemsemper.net|20081205
+2019-02-19 18:20:39.563 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=2926, firstName=Audra, lastName=Whitley, street=Ap #557-9221 Feugiat St., city=Eernegem, postalCode=90-910, phone=576-485-2347, emailAddress=consectetuer.nunc@nisisemsemper.net, joinedDate=2008-12-05] as 2926
+2019-02-19 18:20:39.564 [main] DEBUG a00123456.book.io.CustomerReader - customer 33
+2019-02-19 18:20:39.564 [main] DEBUG a00123456.book.io.CustomerReader - line: 5616|Nerea|Meyers|P.O. Box 138, 6681 Id Street|Laren|V1C 4ZE|579-419-1412|ipsum.nunc@Pellentesqueutipsum.com|20100903
+2019-02-19 18:20:39.564 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=5616, firstName=Nerea, lastName=Meyers, street=P.O. Box 138, 6681 Id Street, city=Laren, postalCode=V1C 4ZE, phone=579-419-1412, emailAddress=ipsum.nunc@Pellentesqueutipsum.com, joinedDate=2010-09-03] as 5616
+2019-02-19 18:20:39.564 [main] DEBUG a00123456.book.io.CustomerReader - customer 34
+2019-02-19 18:20:39.564 [main] DEBUG a00123456.book.io.CustomerReader - line: 8186|Rhea|Bryant|958-5149 Ipsum. Road|San Chirico Nuovo|56523|943-267-7441|amet.diam.eu@ametluctusvulputate.edu|20091106
+2019-02-19 18:20:39.564 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=8186, firstName=Rhea, lastName=Bryant, street=958-5149 Ipsum. Road, city=San Chirico Nuovo, postalCode=56523, phone=943-267-7441, emailAddress=amet.diam.eu@ametluctusvulputate.edu, joinedDate=2009-11-06] as 8186
+2019-02-19 18:20:39.565 [main] DEBUG a00123456.book.io.CustomerReader - customer 35
+2019-02-19 18:20:39.565 [main] DEBUG a00123456.book.io.CustomerReader - line: 8040|Lila|Anthony|8933 Non, St.|Bonlez|77690|889-151-6102|pede.Praesent@nec.co.uk|20171020
+2019-02-19 18:20:39.565 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=8040, firstName=Lila, lastName=Anthony, street=8933 Non, St., city=Bonlez, postalCode=77690, phone=889-151-6102, emailAddress=pede.Praesent@nec.co.uk, joinedDate=2017-10-20] as 8040
+2019-02-19 18:20:39.565 [main] DEBUG a00123456.book.io.CustomerReader - customer 36
+2019-02-19 18:20:39.565 [main] DEBUG a00123456.book.io.CustomerReader - line: 8626|Autumn|Estrada|Ap #433-7134 Porttitor Rd.|Mont-Sainte-Genevive|99783|415-424-7701|rutrum.dolor@vulputatenisi.edu|20160418
+2019-02-19 18:20:39.565 [main] WARN  a00123456.book.io.CustomerReader - Customer exists: Customer [id=8626, firstName=Autumn, lastName=Estrada, street=Ap #433-7134 Porttitor Rd., city=Mont-Sainte-Genevive, postalCode=99783, phone=415-424-7701, emailAddress=rutrum.dolor@vulputatenisi.edu, joinedDate=2016-04-18]
+2019-02-19 18:20:39.566 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=8626, firstName=Autumn, lastName=Estrada, street=Ap #433-7134 Porttitor Rd., city=Mont-Sainte-Genevive, postalCode=99783, phone=415-424-7701, emailAddress=rutrum.dolor@vulputatenisi.edu, joinedDate=2016-04-18] as 8626
+2019-02-19 18:20:39.566 [main] DEBUG a00123456.book.io.CustomerReader - customer 37
+2019-02-19 18:20:39.566 [main] DEBUG a00123456.book.io.CustomerReader - line: 5683|Noelle|Holman|754-5393 Sed Rd.|San Gregorio|113281|484-798-2750|sit.amet@Suspendissenonleo.edu|20070916
+2019-02-19 18:20:39.566 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=5683, firstName=Noelle, lastName=Holman, street=754-5393 Sed Rd., city=San Gregorio, postalCode=113281, phone=484-798-2750, emailAddress=sit.amet@Suspendissenonleo.edu, joinedDate=2007-09-16] as 5683
+2019-02-19 18:20:39.566 [main] DEBUG a00123456.book.io.CustomerReader - customer 38
+2019-02-19 18:20:39.566 [main] DEBUG a00123456.book.io.CustomerReader - line: 7121|Ariana|Delaney|P.O. Box 283, 1423 Nisl. Road|Saint-Remy|9150 XA|965-288-6482|sem.vitae.aliquam@adignissimMaecenas.com|20081029
+2019-02-19 18:20:39.567 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=7121, firstName=Ariana, lastName=Delaney, street=P.O. Box 283, 1423 Nisl. Road, city=Saint-Remy, postalCode=9150 XA, phone=965-288-6482, emailAddress=sem.vitae.aliquam@adignissimMaecenas.com, joinedDate=2008-10-29] as 7121
+2019-02-19 18:20:39.567 [main] DEBUG a00123456.book.io.CustomerReader - customer 39
+2019-02-19 18:20:39.567 [main] DEBUG a00123456.book.io.CustomerReader - line: 9178|Karyn|Irwin|768-2580 Felis. St.|Oyo|95809|856-218-5180|malesuada.Integer@sedpede.edu|20061214
+2019-02-19 18:20:39.567 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=9178, firstName=Karyn, lastName=Irwin, street=768-2580 Felis. St., city=Oyo, postalCode=95809, phone=856-218-5180, emailAddress=malesuada.Integer@sedpede.edu, joinedDate=2006-12-14] as 9178
+2019-02-19 18:20:39.567 [main] DEBUG a00123456.book.io.CustomerReader - customer 40
+2019-02-19 18:20:39.567 [main] DEBUG a00123456.book.io.CustomerReader - line: 7975|Cleo|Lara|P.O. Box 437, 6003 Morbi Road|Moignelee|C9J 7H8|531-438-8755|tempus.risus.Donec@mattisIntegereu.ca|20090421
+2019-02-19 18:20:39.568 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=7975, firstName=Cleo, lastName=Lara, street=P.O. Box 437, 6003 Morbi Road, city=Moignelee, postalCode=C9J 7H8, phone=531-438-8755, emailAddress=tempus.risus.Donec@mattisIntegereu.ca, joinedDate=2009-04-21] as 7975
+2019-02-19 18:20:39.568 [main] DEBUG a00123456.book.io.CustomerReader - customer 41
+2019-02-19 18:20:39.568 [main] DEBUG a00123456.book.io.CustomerReader - line: 4743|Kerry|Kramer|998-3940 Eu Ave|Navidad|41309|171-315-7696|vel@tellusAenean.co.uk|20160502
+2019-02-19 18:20:39.568 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=4743, firstName=Kerry, lastName=Kramer, street=998-3940 Eu Ave, city=Navidad, postalCode=41309, phone=171-315-7696, emailAddress=vel@tellusAenean.co.uk, joinedDate=2016-05-02] as 4743
+2019-02-19 18:20:39.568 [main] DEBUG a00123456.book.io.CustomerReader - customer 42
+2019-02-19 18:20:39.568 [main] DEBUG a00123456.book.io.CustomerReader - line: 5749|Maggie|Atkinson|225-7250 Velit. Rd.|Saint-Nicolas|S5Y 4G8|126-128-2976|elementum.dui@sit.edu|20170314
+2019-02-19 18:20:39.569 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=5749, firstName=Maggie, lastName=Atkinson, street=225-7250 Velit. Rd., city=Saint-Nicolas, postalCode=S5Y 4G8, phone=126-128-2976, emailAddress=elementum.dui@sit.edu, joinedDate=2017-03-14] as 5749
+2019-02-19 18:20:39.569 [main] DEBUG a00123456.book.io.CustomerReader - customer 43
+2019-02-19 18:20:39.569 [main] DEBUG a00123456.book.io.CustomerReader - line: 4124|Rhea|Romero|2920 Eu St.|Muzaffarnagar|391517|758-875-2972|dui.Cum@non.net|20050210
+2019-02-19 18:20:39.569 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=4124, firstName=Rhea, lastName=Romero, street=2920 Eu St., city=Muzaffarnagar, postalCode=391517, phone=758-875-2972, emailAddress=dui.Cum@non.net, joinedDate=2005-02-10] as 4124
+2019-02-19 18:20:39.569 [main] DEBUG a00123456.book.io.CustomerReader - customer 44
+2019-02-19 18:20:39.569 [main] DEBUG a00123456.book.io.CustomerReader - line: 8376|Blair|Lawson|P.O. Box 778, 5019 Massa St.|Whitehorse|70330|939-768-1465|mauris.aliquam.eu@maurisrhoncus.org|20030905
+2019-02-19 18:20:39.570 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=8376, firstName=Blair, lastName=Lawson, street=P.O. Box 778, 5019 Massa St., city=Whitehorse, postalCode=70330, phone=939-768-1465, emailAddress=mauris.aliquam.eu@maurisrhoncus.org, joinedDate=2003-09-05] as 8376
+2019-02-19 18:20:39.570 [main] DEBUG a00123456.book.io.CustomerReader - customer 45
+2019-02-19 18:20:39.570 [main] DEBUG a00123456.book.io.CustomerReader - line: 9541|Rowan|Burgess|980 Velit Avenue|Gaspé|432320|840-831-7014|eu.augue.porttitor@arcu.org|20180826
+2019-02-19 18:20:39.570 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=9541, firstName=Rowan, lastName=Burgess, street=980 Velit Avenue, city=Gaspé, postalCode=432320, phone=840-831-7014, emailAddress=eu.augue.porttitor@arcu.org, joinedDate=2018-08-26] as 9541
+2019-02-19 18:20:39.570 [main] DEBUG a00123456.book.io.CustomerReader - customer 46
+2019-02-19 18:20:39.570 [main] DEBUG a00123456.book.io.CustomerReader - line: 1854|Iola|Arnold|4802 Eros Street|Tulita|11225|816-1089390|tincidunt.tempus@lacus.org|20110103
+2019-02-19 18:20:39.571 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=1854, firstName=Iola, lastName=Arnold, street=4802 Eros Street, city=Tulita, postalCode=11225, phone=816-1089390, emailAddress=tincidunt.tempus@lacus.org, joinedDate=2011-01-03] as 1854
+2019-02-19 18:20:39.571 [main] DEBUG a00123456.book.io.CustomerReader - customer 47
+2019-02-19 18:20:39.571 [main] DEBUG a00123456.book.io.CustomerReader - line: 5287|Nyssa|Brady|P.O. Box 450, 2175 Dapibus Road|Fogo|85688|538-261-0012|ornare.sagittis.felis@turpisnec.net|20141206
+2019-02-19 18:20:39.571 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=5287, firstName=Nyssa, lastName=Brady, street=P.O. Box 450, 2175 Dapibus Road, city=Fogo, postalCode=85688, phone=538-261-0012, emailAddress=ornare.sagittis.felis@turpisnec.net, joinedDate=2014-12-06] as 5287
+2019-02-19 18:20:39.571 [main] DEBUG a00123456.book.io.CustomerReader - customer 48
+2019-02-19 18:20:39.571 [main] DEBUG a00123456.book.io.CustomerReader - line: 3689|Lunea|Andrews|627-9061 Nullam Ave|Haddington|68271|787-576-9472|taciti@sedsapien.org|20180414
+2019-02-19 18:20:39.572 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=3689, firstName=Lunea, lastName=Andrews, street=627-9061 Nullam Ave, city=Haddington, postalCode=68271, phone=787-576-9472, emailAddress=taciti@sedsapien.org, joinedDate=2018-04-14] as 3689
+2019-02-19 18:20:39.572 [main] DEBUG a00123456.book.io.CustomerReader - customer 49
+2019-02-19 18:20:39.572 [main] DEBUG a00123456.book.io.CustomerReader - line: 6723|Duncan|Hall|Ap #946-7913 Sem Rd.|Ophoven|36453|958-178-6417|aptent@nonummy.com|20050201
+2019-02-19 18:20:39.572 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=6723, firstName=Duncan, lastName=Hall, street=Ap #946-7913 Sem Rd., city=Ophoven, postalCode=36453, phone=958-178-6417, emailAddress=aptent@nonummy.com, joinedDate=2005-02-01] as 6723
+2019-02-19 18:20:39.572 [main] DEBUG a00123456.book.io.CustomerReader - customer 50
+2019-02-19 18:20:39.572 [main] DEBUG a00123456.book.io.CustomerReader - line: 7386|Wallace|Estrada|928-3822 Magna Rd.|Wiener Neustadt|18871|279-913-9300|malesuada@ac.edu|20170808
+2019-02-19 18:20:39.573 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=7386, firstName=Wallace, lastName=Estrada, street=928-3822 Magna Rd., city=Wiener Neustadt, postalCode=18871, phone=279-913-9300, emailAddress=malesuada@ac.edu, joinedDate=2017-08-08] as 7386
+2019-02-19 18:20:39.573 [main] DEBUG a00123456.book.io.CustomerReader - customer 51
+2019-02-19 18:20:39.573 [main] DEBUG a00123456.book.io.CustomerReader - line: 7456|Fulton|Merritt|844-3824 In Av.|Elmshorn|715166|253-581-8868|luctus.et.ultrices@amet.com|20090114
+2019-02-19 18:20:39.573 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=7456, firstName=Fulton, lastName=Merritt, street=844-3824 In Av., city=Elmshorn, postalCode=715166, phone=253-581-8868, emailAddress=luctus.et.ultrices@amet.com, joinedDate=2009-01-14] as 7456
+2019-02-19 18:20:39.573 [main] DEBUG a00123456.book.io.CustomerReader - customer 52
+2019-02-19 18:20:39.573 [main] DEBUG a00123456.book.io.CustomerReader - line: 2984|Fritz|Snider|Ap #356-2145 Quisque Avenue|Bousval|4534|782-939-7233|Proin.nisl@odio.edu|20120329
+2019-02-19 18:20:39.574 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=2984, firstName=Fritz, lastName=Snider, street=Ap #356-2145 Quisque Avenue, city=Bousval, postalCode=4534, phone=782-939-7233, emailAddress=Proin.nisl@odio.edu, joinedDate=2012-03-29] as 2984
+2019-02-19 18:20:39.574 [main] DEBUG a00123456.book.io.CustomerReader - customer 53
+2019-02-19 18:20:39.574 [main] DEBUG a00123456.book.io.CustomerReader - line: 6712|Marvin|Cantrell|Ap #775-7293 Diam. Road|Georgia|05234|903444-8323|nulla.Integer.urna@miDuisrisus.ca|20120320
+2019-02-19 18:20:39.574 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=6712, firstName=Marvin, lastName=Cantrell, street=Ap #775-7293 Diam. Road, city=Georgia, postalCode=05234, phone=903444-8323, emailAddress=nulla.Integer.urna@miDuisrisus.ca, joinedDate=2012-03-20] as 6712
+2019-02-19 18:20:39.574 [main] DEBUG a00123456.book.io.CustomerReader - customer 54
+2019-02-19 18:20:39.574 [main] DEBUG a00123456.book.io.CustomerReader - line: 2210|Octavius|Joseph|Ap #342-9819 Quis St.|San Leucio del Sannio|55477-429|671-872-7563|nisi.sem@orcilobortis.ca|20180618
+2019-02-19 18:20:39.575 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=2210, firstName=Octavius, lastName=Joseph, street=Ap #342-9819 Quis St., city=San Leucio del Sannio, postalCode=55477-429, phone=671-872-7563, emailAddress=nisi.sem@orcilobortis.ca, joinedDate=2018-06-18] as 2210
+2019-02-19 18:20:39.575 [main] DEBUG a00123456.book.io.CustomerReader - customer 55
+2019-02-19 18:20:39.575 [main] DEBUG a00123456.book.io.CustomerReader - line: 4976|Malcolm|Mercado|P.O. Box 166, 4075 Odio. Avenue|Copertino|C2B 4L2|405627-6326|scelerisque.neque@Incondimentum.net|20101123
+2019-02-19 18:20:39.575 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=4976, firstName=Malcolm, lastName=Mercado, street=P.O. Box 166, 4075 Odio. Avenue, city=Copertino, postalCode=C2B 4L2, phone=405627-6326, emailAddress=scelerisque.neque@Incondimentum.net, joinedDate=2010-11-23] as 4976
+2019-02-19 18:20:39.575 [main] DEBUG a00123456.book.io.CustomerReader - customer 56
+2019-02-19 18:20:39.575 [main] DEBUG a00123456.book.io.CustomerReader - line: 2834|Nathan|Golden|9041 Nisl Rd.|Cumnock|6153 UM|998-295-4206|ornare.sagittis.felis@tristiqharetra.org|20131222
+2019-02-19 18:20:39.575 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=2834, firstName=Nathan, lastName=Golden, street=9041 Nisl Rd., city=Cumnock, postalCode=6153 UM, phone=998-295-4206, emailAddress=ornare.sagittis.felis@tristiqharetra.org, joinedDate=2013-12-22] as 2834
+2019-02-19 18:20:39.576 [main] DEBUG a00123456.book.io.CustomerReader - customer 57
+2019-02-19 18:20:39.576 [main] DEBUG a00123456.book.io.CustomerReader - line: 4172|Nehru|Donovan|P.O. Box 718, 2611 Aliquet Rd.|Colico|15008|339-9113173|purus@neque.net|20060910
+2019-02-19 18:20:39.576 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=4172, firstName=Nehru, lastName=Donovan, street=P.O. Box 718, 2611 Aliquet Rd., city=Colico, postalCode=15008, phone=339-9113173, emailAddress=purus@neque.net, joinedDate=2006-09-10] as 4172
+2019-02-19 18:20:39.576 [main] DEBUG a00123456.book.io.CustomerReader - customer 58
+2019-02-19 18:20:39.576 [main] DEBUG a00123456.book.io.CustomerReader - line: 5393|Chase|Ball|P.O. Box 499, 8243 Sociis Av.|Vorselaar|4559|728-177-9065|natoque.penatibus@scelerisqueneque.edu|20140220
+2019-02-19 18:20:39.576 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=5393, firstName=Chase, lastName=Ball, street=P.O. Box 499, 8243 Sociis Av., city=Vorselaar, postalCode=4559, phone=728-177-9065, emailAddress=natoque.penatibus@scelerisqueneque.edu, joinedDate=2014-02-20] as 5393
+2019-02-19 18:20:39.576 [main] DEBUG a00123456.book.io.CustomerReader - customer 59
+2019-02-19 18:20:39.577 [main] DEBUG a00123456.book.io.CustomerReader - line: 3820|Elvis|Reese|7614 Eleifend Street|Bassano in Teverina|767849|507888-4008|fermentum.vel@odioNam.ca|20090105
+2019-02-19 18:20:39.577 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=3820, firstName=Elvis, lastName=Reese, street=7614 Eleifend Street, city=Bassano in Teverina, postalCode=767849, phone=507888-4008, emailAddress=fermentum.vel@odioNam.ca, joinedDate=2009-01-05] as 3820
+2019-02-19 18:20:39.577 [main] DEBUG a00123456.book.io.CustomerReader - customer 60
+2019-02-19 18:20:39.577 [main] DEBUG a00123456.book.io.CustomerReader - line: 6878|Malik|Harrington|P.O. Box 738, 2673 Erat Street|Fort Wayne|2034|839-2018763|Donec.nibh.enim@Nullamsuscipitest.edu|20130415
+2019-02-19 18:20:39.577 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=6878, firstName=Malik, lastName=Harrington, street=P.O. Box 738, 2673 Erat Street, city=Fort Wayne, postalCode=2034, phone=839-2018763, emailAddress=Donec.nibh.enim@Nullamsuscipitest.edu, joinedDate=2013-04-15] as 6878
+2019-02-19 18:20:39.577 [main] DEBUG a00123456.book.io.CustomerReader - customer 61
+2019-02-19 18:20:39.578 [main] DEBUG a00123456.book.io.CustomerReader - line: 6950|Ezekiel|Rush|814-2716 Nulla St.|Hard|22237|266-654-9980|congue@adipiscingMaurismolestie.net|20141214
+2019-02-19 18:20:39.578 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=6950, firstName=Ezekiel, lastName=Rush, street=814-2716 Nulla St., city=Hard, postalCode=22237, phone=266-654-9980, emailAddress=congue@adipiscingMaurismolestie.net, joinedDate=2014-12-14] as 6950
+2019-02-19 18:20:39.578 [main] DEBUG a00123456.book.io.CustomerReader - customer 62
+2019-02-19 18:20:39.578 [main] DEBUG a00123456.book.io.CustomerReader - line: 7658|Fuller|Whitley|985 Ipsum St.|Cavaso del Tomba|69824-753|425-356-2327|lectus.a@Integer.co.uk|20071223
+2019-02-19 18:20:39.578 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=7658, firstName=Fuller, lastName=Whitley, street=985 Ipsum St., city=Cavaso del Tomba, postalCode=69824-753, phone=425-356-2327, emailAddress=lectus.a@Integer.co.uk, joinedDate=2007-12-23] as 7658
+2019-02-19 18:20:39.579 [main] DEBUG a00123456.book.io.CustomerReader - customer 63
+2019-02-19 18:20:39.579 [main] DEBUG a00123456.book.io.CustomerReader - line: 4976|Kareem|Robertson|5106 Vitae, Rd.|Nantes|N19 0TP|466-8020201|faucibus@condimentumeget.org|20061222
+2019-02-19 18:20:39.579 [main] WARN  a00123456.book.io.CustomerReader - Customer exists: Customer [id=4976, firstName=Kareem, lastName=Robertson, street=5106 Vitae, Rd., city=Nantes, postalCode=N19 0TP, phone=466-8020201, emailAddress=faucibus@condimentumeget.org, joinedDate=2006-12-22]
+2019-02-19 18:20:39.579 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=4976, firstName=Kareem, lastName=Robertson, street=5106 Vitae, Rd., city=Nantes, postalCode=N19 0TP, phone=466-8020201, emailAddress=faucibus@condimentumeget.org, joinedDate=2006-12-22] as 4976
+2019-02-19 18:20:39.579 [main] DEBUG a00123456.book.io.CustomerReader - customer 64
+2019-02-19 18:20:39.579 [main] DEBUG a00123456.book.io.CustomerReader - line: 8193|Reese|Sampson|Ap #567-8776 Sociis Rd.|Logan City|6205|929-788-0374|dolor.Fusce.mi@loremvehicula.com|20110608
+2019-02-19 18:20:39.580 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=8193, firstName=Reese, lastName=Sampson, street=Ap #567-8776 Sociis Rd., city=Logan City, postalCode=6205, phone=929-788-0374, emailAddress=dolor.Fusce.mi@loremvehicula.com, joinedDate=2011-06-08] as 8193
+2019-02-19 18:20:39.580 [main] DEBUG a00123456.book.io.CustomerReader - customer 65
+2019-02-19 18:20:39.580 [main] DEBUG a00123456.book.io.CustomerReader - line: 9193|Christopher|Burton|Ap #2126820 Id, Rd.|Lakeland County|05381|678-454-3010|sollicitudin.malesuada@metusVivamus.org|20050929
+2019-02-19 18:20:39.580 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=9193, firstName=Christopher, lastName=Burton, street=Ap #2126820 Id, Rd., city=Lakeland County, postalCode=05381, phone=678-454-3010, emailAddress=sollicitudin.malesuada@metusVivamus.org, joinedDate=2005-09-29] as 9193
+2019-02-19 18:20:39.580 [main] DEBUG a00123456.book.io.CustomerReader - customer 66
+2019-02-19 18:20:39.580 [main] DEBUG a00123456.book.io.CustomerReader - line: 1224|Malcolm|Henry|6062161 Sagittis Street|Cochrane|R62 2CH|955-846-2595|natoque.penatibus.et@nonsapien.net|20070427
+2019-02-19 18:20:39.580 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=1224, firstName=Malcolm, lastName=Henry, street=6062161 Sagittis Street, city=Cochrane, postalCode=R62 2CH, phone=955-846-2595, emailAddress=natoque.penatibus.et@nonsapien.net, joinedDate=2007-04-27] as 1224
+2019-02-19 18:20:39.580 [main] DEBUG a00123456.book.io.CustomerReader - customer 67
+2019-02-19 18:20:39.581 [main] DEBUG a00123456.book.io.CustomerReader - line: 4866|Carson|Woodward|Ap #637-5436 Nisi Ave|San Juan de la Costa|85-484|935-257-6002|nulla.ante@acturpisegestas.edu|20090905
+2019-02-19 18:20:39.581 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=4866, firstName=Carson, lastName=Woodward, street=Ap #637-5436 Nisi Ave, city=San Juan de la Costa, postalCode=85-484, phone=935-257-6002, emailAddress=nulla.ante@acturpisegestas.edu, joinedDate=2009-09-05] as 4866
+2019-02-19 18:20:39.581 [main] DEBUG a00123456.book.io.CustomerReader - customer 68
+2019-02-19 18:20:39.581 [main] DEBUG a00123456.book.io.CustomerReader - line: 8964|August|Walter|8983 Orci. Street|Laramie|490416|493-426-5980|turpis.nec@lacusEtiam.net|20130308
+2019-02-19 18:20:39.581 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=8964, firstName=August, lastName=Walter, street=8983 Orci. Street, city=Laramie, postalCode=490416, phone=493-426-5980, emailAddress=turpis.nec@lacusEtiam.net, joinedDate=2013-03-08] as 8964
+2019-02-19 18:20:39.581 [main] DEBUG a00123456.book.io.CustomerReader - customer 69
+2019-02-19 18:20:39.581 [main] DEBUG a00123456.book.io.CustomerReader - line: 3936|Kenyon|Cherry|784-9461 Amet, Street|Steenhuffel|8355 UW|413-4045017|mattis.semper.dui@hendrerit.edu|20100529
+2019-02-19 18:20:39.582 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=3936, firstName=Kenyon, lastName=Cherry, street=784-9461 Amet, Street, city=Steenhuffel, postalCode=8355 UW, phone=413-4045017, emailAddress=mattis.semper.dui@hendrerit.edu, joinedDate=2010-05-29] as 3936
+2019-02-19 18:20:39.582 [main] DEBUG a00123456.book.io.CustomerReader - customer 70
+2019-02-19 18:20:39.582 [main] DEBUG a00123456.book.io.CustomerReader - line: 6912|Benjamin|Preston|8470 Maecenas St.|Zeist|274996|155-8024678|ac@in.com|20130507
+2019-02-19 18:20:39.582 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=6912, firstName=Benjamin, lastName=Preston, street=8470 Maecenas St., city=Zeist, postalCode=274996, phone=155-8024678, emailAddress=ac@in.com, joinedDate=2013-05-07] as 6912
+2019-02-19 18:20:39.582 [main] DEBUG a00123456.book.io.CustomerReader - customer 71
+2019-02-19 18:20:39.584 [main] DEBUG a00123456.book.io.CustomerReader - line: 4932|Vance|Jimenez|P.O. Box 459, 8639 Nam Avenue|Eckernförde|8302|349-560-3255|laoreet@consectetueradipiscingelit.org|20070314
+2019-02-19 18:20:39.584 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=4932, firstName=Vance, lastName=Jimenez, street=P.O. Box 459, 8639 Nam Avenue, city=Eckernförde, postalCode=8302, phone=349-560-3255, emailAddress=laoreet@consectetueradipiscingelit.org, joinedDate=2007-03-14] as 4932
+2019-02-19 18:20:39.584 [main] DEBUG a00123456.book.io.CustomerReader - customer 72
+2019-02-19 18:20:39.584 [main] DEBUG a00123456.book.io.CustomerReader - line: 1298|Nash|Hardin|Ap #3116792 Elit Av.|Palestrina|13181|586-899-1820|ultricies.ornare@arcuMorbi.com|20100114
+2019-02-19 18:20:39.584 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=1298, firstName=Nash, lastName=Hardin, street=Ap #3116792 Elit Av., city=Palestrina, postalCode=13181, phone=586-899-1820, emailAddress=ultricies.ornare@arcuMorbi.com, joinedDate=2010-01-14] as 1298
+2019-02-19 18:20:39.585 [main] DEBUG a00123456.book.io.CustomerReader - customer 73
+2019-02-19 18:20:39.585 [main] DEBUG a00123456.book.io.CustomerReader - line: 5851|Hakeem|Shaffer|488-9371 Vestibulum. St.|Buti|0329|652-115-8930|eget@metusInlorem.edu|20170116
+2019-02-19 18:20:39.585 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=5851, firstName=Hakeem, lastName=Shaffer, street=488-9371 Vestibulum. St., city=Buti, postalCode=0329, phone=652-115-8930, emailAddress=eget@metusInlorem.edu, joinedDate=2017-01-16] as 5851
+2019-02-19 18:20:39.585 [main] DEBUG a00123456.book.io.CustomerReader - customer 74
+2019-02-19 18:20:39.585 [main] DEBUG a00123456.book.io.CustomerReader - line: 5113|Talon|Dale|P.O. Box 742, 2741 Aenean St.|Gent|N4F 2MA|784-229-2217|Phasellus.ornare@Integer.org|20040912
+2019-02-19 18:20:39.585 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=5113, firstName=Talon, lastName=Dale, street=P.O. Box 742, 2741 Aenean St., city=Gent, postalCode=N4F 2MA, phone=784-229-2217, emailAddress=Phasellus.ornare@Integer.org, joinedDate=2004-09-12] as 5113
+2019-02-19 18:20:39.586 [main] DEBUG a00123456.book.io.CustomerReader - customer 75
+2019-02-19 18:20:39.586 [main] DEBUG a00123456.book.io.CustomerReader - line: 8000|Leonard|Acosta|486-9707 Egestas St.|Orangeville|81095|292-827-2242|enim.Suspendisse@ipsum.co.uk|20030105
+2019-02-19 18:20:39.586 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=8000, firstName=Leonard, lastName=Acosta, street=486-9707 Egestas St., city=Orangeville, postalCode=81095, phone=292-827-2242, emailAddress=enim.Suspendisse@ipsum.co.uk, joinedDate=2003-01-05] as 8000
+2019-02-19 18:20:39.586 [main] DEBUG a00123456.book.io.CustomerReader - customer 76
+2019-02-19 18:20:39.586 [main] DEBUG a00123456.book.io.CustomerReader - line: 2230|Quentin|Strickland|452-2135 Vehicula. Road|Zelzate|5039|183-957-0954|libero@Inatpede.co.uk|20030507
+2019-02-19 18:20:39.586 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=2230, firstName=Quentin, lastName=Strickland, street=452-2135 Vehicula. Road, city=Zelzate, postalCode=5039, phone=183-957-0954, emailAddress=libero@Inatpede.co.uk, joinedDate=2003-05-07] as 2230
+2019-02-19 18:20:39.586 [main] DEBUG a00123456.book.io.CustomerReader - customer 77
+2019-02-19 18:20:39.586 [main] DEBUG a00123456.book.io.CustomerReader - line: 9500|Abbot|Stanley|7479 Erat Rd.|Fiuminata|ZC7N 0AZ|638-432-1948|libero.Proin.mi@eu.co.uk|20151007
+2019-02-19 18:20:39.587 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=9500, firstName=Abbot, lastName=Stanley, street=7479 Erat Rd., city=Fiuminata, postalCode=ZC7N 0AZ, phone=638-432-1948, emailAddress=libero.Proin.mi@eu.co.uk, joinedDate=2015-10-07] as 9500
+2019-02-19 18:20:39.587 [main] DEBUG a00123456.book.io.CustomerReader - customer 78
+2019-02-19 18:20:39.587 [main] DEBUG a00123456.book.io.CustomerReader - line: 6089|Josiah|Mccoy|P.O. Box 460, 4058 Est Avenue|Ibadan|21-372|293-1112638|iaculis@risusNulla.co.uk|20060221
+2019-02-19 18:20:39.587 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=6089, firstName=Josiah, lastName=Mccoy, street=P.O. Box 460, 4058 Est Avenue, city=Ibadan, postalCode=21-372, phone=293-1112638, emailAddress=iaculis@risusNulla.co.uk, joinedDate=2006-02-21] as 6089
+2019-02-19 18:20:39.587 [main] DEBUG a00123456.book.io.CustomerReader - customer 79
+2019-02-19 18:20:39.587 [main] DEBUG a00123456.book.io.CustomerReader - line: 4152|Akeem|Clements|Ap #931-338 Odio Ave|Werder|302710|213-573-2066|scelerisque.scelerisque@eueratsemper.com|20100630
+2019-02-19 18:20:39.587 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=4152, firstName=Akeem, lastName=Clements, street=Ap #931-338 Odio Ave, city=Werder, postalCode=302710, phone=213-573-2066, emailAddress=scelerisque.scelerisque@eueratsemper.com, joinedDate=2010-06-30] as 4152
+2019-02-19 18:20:39.588 [main] DEBUG a00123456.book.io.CustomerReader - customer 80
+2019-02-19 18:20:39.588 [main] DEBUG a00123456.book.io.CustomerReader - line: 9555|Thor|Clarke|7144 Auctor Ave|Luziânia|13670|176-534-6373|mauris.aliquam@morbi.ca|20180711
+2019-02-19 18:20:39.588 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=9555, firstName=Thor, lastName=Clarke, street=7144 Auctor Ave, city=Luziânia, postalCode=13670, phone=176-534-6373, emailAddress=mauris.aliquam@morbi.ca, joinedDate=2018-07-11] as 9555
+2019-02-19 18:20:39.588 [main] DEBUG a00123456.book.io.CustomerReader - customer 81
+2019-02-19 18:20:39.588 [main] DEBUG a00123456.book.io.CustomerReader - line: 7516|Marvin|Hughes|416-4859 Adipiscing Rd.|Velletri|82416|166-364-6629|purus@DonecegestasAliquam.co.uk|20041103
+2019-02-19 18:20:39.588 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=7516, firstName=Marvin, lastName=Hughes, street=416-4859 Adipiscing Rd., city=Velletri, postalCode=82416, phone=166-364-6629, emailAddress=purus@DonecegestasAliquam.co.uk, joinedDate=2004-11-03] as 7516
+2019-02-19 18:20:39.588 [main] DEBUG a00123456.book.io.CustomerReader - customer 82
+2019-02-19 18:20:39.589 [main] DEBUG a00123456.book.io.CustomerReader - line: 9672|Armando|Houston|867-9155 Donec Rd.|Jönköping|74191|145-456-9471|orci.dapibus@tellusjustosit.co.uk|20121004
+2019-02-19 18:20:39.589 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=9672, firstName=Armando, lastName=Houston, street=867-9155 Donec Rd., city=Jönköping, postalCode=74191, phone=145-456-9471, emailAddress=orci.dapibus@tellusjustosit.co.uk, joinedDate=2012-10-04] as 9672
+2019-02-19 18:20:39.589 [main] DEBUG a00123456.book.io.CustomerReader - customer 83
+2019-02-19 18:20:39.589 [main] DEBUG a00123456.book.io.CustomerReader - line: 6530|Jesse|Hutchinson|Ap #640-2155 Vulputate Rd.|Hanau|20111|552-153-4363|Mauris@congueturpisIn.edu|20040629
+2019-02-19 18:20:39.589 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=6530, firstName=Jesse, lastName=Hutchinson, street=Ap #640-2155 Vulputate Rd., city=Hanau, postalCode=20111, phone=552-153-4363, emailAddress=Mauris@congueturpisIn.edu, joinedDate=2004-06-29] as 6530
+2019-02-19 18:20:39.590 [main] DEBUG a00123456.book.io.CustomerReader - customer 84
+2019-02-19 18:20:39.590 [main] DEBUG a00123456.book.io.CustomerReader - line: 6044|Wing|Richardson|P.O. Box 754, 2082 Lectus Avenue|Łomża|61213|861-334-3012|Nulla.Maecenas@convalliserateget.edu|20050824
+2019-02-19 18:20:39.590 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=6044, firstName=Wing, lastName=Richardson, street=P.O. Box 754, 2082 Lectus Avenue, city=Łomża, postalCode=61213, phone=861-334-3012, emailAddress=Nulla.Maecenas@convalliserateget.edu, joinedDate=2005-08-24] as 6044
+2019-02-19 18:20:39.590 [main] DEBUG a00123456.book.io.CustomerReader - customer 85
+2019-02-19 18:20:39.591 [main] DEBUG a00123456.book.io.CustomerReader - line: 1969|Michael|Cherry|Ap #429-2330 In Ave|Graz|1751|268-956-0991|vel.pede.blandit@famesac.co.uk|20110923
+2019-02-19 18:20:39.591 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=1969, firstName=Michael, lastName=Cherry, street=Ap #429-2330 In Ave, city=Graz, postalCode=1751, phone=268-956-0991, emailAddress=vel.pede.blandit@famesac.co.uk, joinedDate=2011-09-23] as 1969
+2019-02-19 18:20:39.591 [main] DEBUG a00123456.book.io.CustomerReader - customer 86
+2019-02-19 18:20:39.591 [main] DEBUG a00123456.book.io.CustomerReader - line: 6163|Ferris|Reese|6075 Eleifend Rd.|Penicuik|26265|433-534-5744|mi@Pellentesquehabitantmorbi.ca|20070317
+2019-02-19 18:20:39.591 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=6163, firstName=Ferris, lastName=Reese, street=6075 Eleifend Rd., city=Penicuik, postalCode=26265, phone=433-534-5744, emailAddress=mi@Pellentesquehabitantmorbi.ca, joinedDate=2007-03-17] as 6163
+2019-02-19 18:20:39.591 [main] DEBUG a00123456.book.io.CustomerReader - customer 87
+2019-02-19 18:20:39.592 [main] DEBUG a00123456.book.io.CustomerReader - line: 1787|Jerome|Hendrix|5118371 Ullamcorper, Street|Urbe|53438|868-875-2035|cursus@Suspendissenon.co.uk|20120503
+2019-02-19 18:20:39.592 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=1787, firstName=Jerome, lastName=Hendrix, street=5118371 Ullamcorper, Street, city=Urbe, postalCode=53438, phone=868-875-2035, emailAddress=cursus@Suspendissenon.co.uk, joinedDate=2012-05-03] as 1787
+2019-02-19 18:20:39.592 [main] DEBUG a00123456.book.io.CustomerReader - customer 88
+2019-02-19 18:20:39.592 [main] DEBUG a00123456.book.io.CustomerReader - line: 7498|Trevor|Salinas|P.O. Box 275, 7385 Sagittis Road|Bailivre|HO7 8FW|367-695-0072|sit@consequatauctor.net|20061024
+2019-02-19 18:20:39.592 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=7498, firstName=Trevor, lastName=Salinas, street=P.O. Box 275, 7385 Sagittis Road, city=Bailivre, postalCode=HO7 8FW, phone=367-695-0072, emailAddress=sit@consequatauctor.net, joinedDate=2006-10-24] as 7498
+2019-02-19 18:20:39.593 [main] DEBUG a00123456.book.io.CustomerReader - customer 89
+2019-02-19 18:20:39.593 [main] DEBUG a00123456.book.io.CustomerReader - line: 1352|Len|Wood|Ap #657-491 Etiam St.|Sachs Harbour|50804|770-916-9879|dui@non.co.uk|20050524
+2019-02-19 18:20:39.593 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=1352, firstName=Len, lastName=Wood, street=Ap #657-491 Etiam St., city=Sachs Harbour, postalCode=50804, phone=770-916-9879, emailAddress=dui@non.co.uk, joinedDate=2005-05-24] as 1352
+2019-02-19 18:20:39.593 [main] DEBUG a00123456.book.io.CustomerReader - customer 90
+2019-02-19 18:20:39.593 [main] DEBUG a00123456.book.io.CustomerReader - line: 4179|Patrick|Snider|P.O. Box 115, 8460 Fringilla Rd.|Corroy-le-Grand|83978|378-269-7503|ante.lectus@feugiatnon.co.uk|20110730
+2019-02-19 18:20:39.593 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=4179, firstName=Patrick, lastName=Snider, street=P.O. Box 115, 8460 Fringilla Rd., city=Corroy-le-Grand, postalCode=83978, phone=378-269-7503, emailAddress=ante.lectus@feugiatnon.co.uk, joinedDate=2011-07-30] as 4179
+2019-02-19 18:20:39.594 [main] DEBUG a00123456.book.io.CustomerReader - customer 91
+2019-02-19 18:20:39.594 [main] DEBUG a00123456.book.io.CustomerReader - line: 5331|Thaddeus|Mcpherson|Ap #348-6247 Nunc Av.|Nivelles|83462|146-679-6354|vestibulum.neque@tortornibh.co.uk|20150422
+2019-02-19 18:20:39.594 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=5331, firstName=Thaddeus, lastName=Mcpherson, street=Ap #348-6247 Nunc Av., city=Nivelles, postalCode=83462, phone=146-679-6354, emailAddress=vestibulum.neque@tortornibh.co.uk, joinedDate=2015-04-22] as 5331
+2019-02-19 18:20:39.594 [main] DEBUG a00123456.book.io.CustomerReader - customer 92
+2019-02-19 18:20:39.594 [main] DEBUG a00123456.book.io.CustomerReader - line: 4652|Bradley|Prince|6109675 Phasellus Rd.|Hearst|13771|967-986-7928|Nam.tempor@Nulla.net|20111001
+2019-02-19 18:20:39.594 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=4652, firstName=Bradley, lastName=Prince, street=6109675 Phasellus Rd., city=Hearst, postalCode=13771, phone=967-986-7928, emailAddress=Nam.tempor@Nulla.net, joinedDate=2011-10-01] as 4652
+2019-02-19 18:20:39.594 [main] DEBUG a00123456.book.io.CustomerReader - customer 93
+2019-02-19 18:20:39.595 [main] DEBUG a00123456.book.io.CustomerReader - line: 3984|Adrian|Haley|P.O. Box 929, 6087 Ornare, Road|Hospet|C7A 4A7|299-593-8828|Maecenas.libero@fermentumvelmauris.ca|20111125
+2019-02-19 18:20:39.595 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=3984, firstName=Adrian, lastName=Haley, street=P.O. Box 929, 6087 Ornare, Road, city=Hospet, postalCode=C7A 4A7, phone=299-593-8828, emailAddress=Maecenas.libero@fermentumvelmauris.ca, joinedDate=2011-11-25] as 3984
+2019-02-19 18:20:39.595 [main] DEBUG a00123456.book.io.CustomerReader - customer 94
+2019-02-19 18:20:39.595 [main] DEBUG a00123456.book.io.CustomerReader - line: 1837|George|Caldwell|2923 Magna. Av.|Newton Stewart|11006|559-200-8222|nibh.enim@nulla.edu|20080410
+2019-02-19 18:20:39.595 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=1837, firstName=George, lastName=Caldwell, street=2923 Magna. Av., city=Newton Stewart, postalCode=11006, phone=559-200-8222, emailAddress=nibh.enim@nulla.edu, joinedDate=2008-04-10] as 1837
+2019-02-19 18:20:39.595 [main] DEBUG a00123456.book.io.CustomerReader - customer 95
+2019-02-19 18:20:39.595 [main] DEBUG a00123456.book.io.CustomerReader - line: 9136|Fuller|Battle|646 Faucibus St.|Antártica|877712|254-764-3908|Pellentesque@augueut.ca|20120427
+2019-02-19 18:20:39.596 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=9136, firstName=Fuller, lastName=Battle, street=646 Faucibus St., city=Antártica, postalCode=877712, phone=254-764-3908, emailAddress=Pellentesque@augueut.ca, joinedDate=2012-04-27] as 9136
+2019-02-19 18:20:39.596 [main] DEBUG a00123456.book.io.CustomerReader - customer 96
+2019-02-19 18:20:39.596 [main] DEBUG a00123456.book.io.CustomerReader - line: 3947|Thane|Donaldson|Ap #258-2275 Gravida Ave|Villers-la-Loue|09537-940|976-184-2486|Donec@morbitristiquesenectus.edu|20160514
+2019-02-19 18:20:39.596 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=3947, firstName=Thane, lastName=Donaldson, street=Ap #258-2275 Gravida Ave, city=Villers-la-Loue, postalCode=09537-940, phone=976-184-2486, emailAddress=Donec@morbitristiquesenectus.edu, joinedDate=2016-05-14] as 3947
+2019-02-19 18:20:39.596 [main] DEBUG a00123456.book.io.CustomerReader - customer 97
+2019-02-19 18:20:39.596 [main] DEBUG a00123456.book.io.CustomerReader - line: 3011|Lane|Kidd|9126341 Vivamus St.|Davenport|80-945|704864-3143|non@molestiepharetra.com|20030607
+2019-02-19 18:20:39.597 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=3011, firstName=Lane, lastName=Kidd, street=9126341 Vivamus St., city=Davenport, postalCode=80-945, phone=704864-3143, emailAddress=non@molestiepharetra.com, joinedDate=2003-06-07] as 3011
+2019-02-19 18:20:39.597 [main] DEBUG a00123456.book.io.CustomerReader - customer 98
+2019-02-19 18:20:39.597 [main] DEBUG a00123456.book.io.CustomerReader - line: 4944|Xanthus|Barnes|255-9264 Libero Avenue|Baidyabati|84349-072|412589-3376|iaculis.aliquet@laciniavitaesodales.ca|20050730
+2019-02-19 18:20:39.597 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=4944, firstName=Xanthus, lastName=Barnes, street=255-9264 Libero Avenue, city=Baidyabati, postalCode=84349-072, phone=412589-3376, emailAddress=iaculis.aliquet@laciniavitaesodales.ca, joinedDate=2005-07-30] as 4944
+2019-02-19 18:20:39.598 [main] DEBUG a00123456.book.io.CustomerReader - customer 99
+2019-02-19 18:20:39.598 [main] DEBUG a00123456.book.io.CustomerReader - line: 2774|Adam|Mccullough|2311 Eu St.|Coreglia Antelminelli|155182|948-845-3666|nascetur@ultricesmauris.net|20180717
+2019-02-19 18:20:39.598 [main] DEBUG a00123456.book.io.CustomerReader - Added Customer [id=2774, firstName=Adam, lastName=Mccullough, street=2311 Eu St., city=Coreglia Antelminelli, postalCode=155182, phone=948-845-3666, emailAddress=nascetur@ultricesmauris.net, joinedDate=2018-07-17] as 2774
+2019-02-19 18:20:39.598 [main] DEBUG a00123456.book.io.CustomerReader - customer 100
+2019-02-19 18:20:39.602 [main] DEBUG a00123456.book.io.PurchaseReader - Reading/Users/scirka/Documents/bcit/Solutions/Books/purchases.csv
+2019-02-19 18:20:39.603 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=8000, bookId=245, price=6.02] as 1
+2019-02-19 18:20:39.603 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=6494, bookId=172, price=0.83] as 2
+2019-02-19 18:20:39.603 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=3897, bookId=213, price=7.31] as 3
+2019-02-19 18:20:39.603 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=5279, bookId=486, price=7.98] as 4
+2019-02-19 18:20:39.603 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=8479, bookId=219, price=4.89] as 5
+2019-02-19 18:20:39.603 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=4778, bookId=129, price=9.82] as 6
+2019-02-19 18:20:39.604 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=7121, bookId=165, price=3.59] as 7
+2019-02-19 18:20:39.604 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=5279, bookId=136, price=7.22] as 8
+2019-02-19 18:20:39.604 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=1298, bookId=153, price=4.33] as 9
+2019-02-19 18:20:39.604 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=7658, bookId=330, price=2.02] as 10
+2019-02-19 18:20:39.604 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=7498, bookId=264, price=2.88] as 11
+2019-02-19 18:20:39.604 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=7975, bookId=141, price=8.13] as 12
+2019-02-19 18:20:39.605 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=8193, bookId=407, price=0.88] as 13
+2019-02-19 18:20:39.605 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=5749, bookId=444, price=3.38] as 14
+2019-02-19 18:20:39.605 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=5279, bookId=439, price=4.39] as 15
+2019-02-19 18:20:39.605 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=9352, bookId=277, price=8.07] as 16
+2019-02-19 18:20:39.605 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=4179, bookId=247, price=1.24] as 17
+2019-02-19 18:20:39.605 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=5017, bookId=168, price=7.78] as 18
+2019-02-19 18:20:39.606 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=4976, bookId=208, price=6.4] as 19
+2019-02-19 18:20:39.606 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=8000, bookId=451, price=9.13] as 20
+2019-02-19 18:20:39.606 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=1224, bookId=389, price=7.18] as 21
+2019-02-19 18:20:39.606 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=3984, bookId=371, price=2.55] as 22
+2019-02-19 18:20:39.606 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=4778, bookId=316, price=3.01] as 23
+2019-02-19 18:20:39.606 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=5851, bookId=3, price=4.12] as 24
+2019-02-19 18:20:39.606 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=1352, bookId=337, price=8.29] as 25
+2019-02-19 18:20:39.607 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=2926, bookId=369, price=6.16] as 26
+2019-02-19 18:20:39.607 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=9555, bookId=82, price=9.86] as 27
+2019-02-19 18:20:39.607 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=8261, bookId=311, price=5.59] as 28
+2019-02-19 18:20:39.607 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=9500, bookId=447, price=7.09] as 29
+2019-02-19 18:20:39.607 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=6089, bookId=454, price=2.69] as 30
+2019-02-19 18:20:39.607 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=7498, bookId=154, price=9.36] as 31
+2019-02-19 18:20:39.607 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=6324, bookId=184, price=5.95] as 32
+2019-02-19 18:20:39.607 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=3897, bookId=268, price=3.87] as 33
+2019-02-19 18:20:39.607 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=9352, bookId=28, price=9.17] as 34
+2019-02-19 18:20:39.608 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=7658, bookId=456, price=8.98] as 35
+2019-02-19 18:20:39.608 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=4743, bookId=358, price=5.79] as 36
+2019-02-19 18:20:39.608 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=9475, bookId=109, price=1.13] as 37
+2019-02-19 18:20:39.608 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=8479, bookId=402, price=6.85] as 38
+2019-02-19 18:20:39.608 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=8000, bookId=17, price=6.33] as 39
+2019-02-19 18:20:39.608 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=3936, bookId=426, price=0.94] as 40
+2019-02-19 18:20:39.608 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=2984, bookId=253, price=0.14] as 41
+2019-02-19 18:20:39.608 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=3897, bookId=122, price=8.93] as 42
+2019-02-19 18:20:39.609 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=4152, bookId=267, price=4.18] as 43
+2019-02-19 18:20:39.609 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=1224, bookId=468, price=4.63] as 44
+2019-02-19 18:20:39.609 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=1352, bookId=32, price=9.72] as 45
+2019-02-19 18:20:39.609 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=6357, bookId=73, price=2.83] as 46
+2019-02-19 18:20:39.609 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=1787, bookId=250, price=0.04] as 47
+2019-02-19 18:20:39.609 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=7849, bookId=121, price=7.83] as 48
+2019-02-19 18:20:39.609 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=5851, bookId=472, price=3.03] as 49
+2019-02-19 18:20:39.610 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=5616, bookId=178, price=7.77] as 50
+2019-02-19 18:20:39.610 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=8040, bookId=32, price=1.79] as 51
+2019-02-19 18:20:39.610 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=2926, bookId=181, price=0.99] as 52
+2019-02-19 18:20:39.610 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=8626, bookId=328, price=1.56] as 53
+2019-02-19 18:20:39.610 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=6163, bookId=56, price=6.25] as 54
+2019-02-19 18:20:39.610 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=1837, bookId=307, price=1.36] as 55
+2019-02-19 18:20:39.610 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=5843, bookId=331, price=5.68] as 56
+2019-02-19 18:20:39.611 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=7658, bookId=257, price=1.21] as 57
+2019-02-19 18:20:39.611 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=4188, bookId=347, price=6.34] as 58
+2019-02-19 18:20:39.611 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=2984, bookId=248, price=7.57] as 59
+2019-02-19 18:20:39.611 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=2834, bookId=60, price=2.71] as 60
+2019-02-19 18:20:39.611 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=8479, bookId=357, price=6.08] as 61
+2019-02-19 18:20:39.611 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=4652, bookId=190, price=1.36] as 62
+2019-02-19 18:20:39.612 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=3897, bookId=56, price=4.8] as 63
+2019-02-19 18:20:39.612 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=4778, bookId=387, price=3.13] as 64
+2019-02-19 18:20:39.612 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=2984, bookId=104, price=6.4] as 65
+2019-02-19 18:20:39.612 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=4188, bookId=370, price=1.35] as 66
+2019-02-19 18:20:39.612 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=9178, bookId=161, price=1.7] as 67
+2019-02-19 18:20:39.612 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=1854, bookId=185, price=2.54] as 68
+2019-02-19 18:20:39.612 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=8261, bookId=131, price=8.3] as 69
+2019-02-19 18:20:39.612 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=5113, bookId=188, price=6.32] as 70
+2019-02-19 18:20:39.612 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=3897, bookId=77, price=4.01] as 71
+2019-02-19 18:20:39.613 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=1175, bookId=73, price=2.15] as 72
+2019-02-19 18:20:39.613 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=6163, bookId=109, price=4.57] as 73
+2019-02-19 18:20:39.613 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=8479, bookId=306, price=7.14] as 74
+2019-02-19 18:20:39.613 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=4944, bookId=472, price=2.98] as 75
+2019-02-19 18:20:39.613 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=7456, bookId=305, price=5.67] as 76
+2019-02-19 18:20:39.613 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=1567, bookId=318, price=0.51] as 77
+2019-02-19 18:20:39.613 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=2774, bookId=176, price=1.81] as 78
+2019-02-19 18:20:39.613 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=1837, bookId=349, price=5.91] as 79
+2019-02-19 18:20:39.613 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=4976, bookId=70, price=1.55] as 80
+2019-02-19 18:20:39.614 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=9500, bookId=411, price=2.46] as 81
+2019-02-19 18:20:39.614 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=6044, bookId=423, price=1.83] as 82
+2019-02-19 18:20:39.614 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=2230, bookId=341, price=0.85] as 83
+2019-02-19 18:20:39.614 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=1739, bookId=109, price=0.49] as 84
+2019-02-19 18:20:39.614 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=5843, bookId=315, price=7.96] as 85
+2019-02-19 18:20:39.614 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=7498, bookId=372, price=8.06] as 86
+2019-02-19 18:20:39.614 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=7386, bookId=308, price=2.4] as 87
+2019-02-19 18:20:39.614 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=4172, bookId=293, price=4.42] as 88
+2019-02-19 18:20:39.614 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=4778, bookId=70, price=0.54] as 89
+2019-02-19 18:20:39.615 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=3011, bookId=429, price=2.5] as 90
+2019-02-19 18:20:39.615 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=8479, bookId=64, price=8.53] as 91
+2019-02-19 18:20:39.615 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=3011, bookId=177, price=9.66] as 92
+2019-02-19 18:20:39.615 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=4179, bookId=37, price=3.64] as 93
+2019-02-19 18:20:39.615 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=6712, bookId=236, price=7.43] as 94
+2019-02-19 18:20:39.615 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=6357, bookId=227, price=6.68] as 95
+2019-02-19 18:20:39.615 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=2926, bookId=352, price=7.41] as 96
+2019-02-19 18:20:39.615 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=8479, bookId=178, price=6.14] as 97
+2019-02-19 18:20:39.615 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=5393, bookId=180, price=2.47] as 98
+2019-02-19 18:20:39.616 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=5029, bookId=258, price=0.06] as 99
+2019-02-19 18:20:39.616 [main] DEBUG a00123456.book.io.PurchaseReader - Added Purchase [customerId=9555, bookId=146, price=9.81] as 100
+2019-02-19 18:20:39.616 [main] DEBUG a00123456.book.data.AllData - successfully loaded the data
+2019-02-19 18:20:39.616 [main] DEBUG a00123456.book.BookStore - generating the reports
+2019-02-19 18:20:39.616 [main] DEBUG a00123456.book.BookStore - generating the customer report
+2019-02-19 18:20:39.617 [main] DEBUG a00123456.book.io.CustomersReport - Printing the Customers Report
+2019-02-19 18:20:39.655 [main] DEBUG a00123456.book.io.CustomersReport - Printing the Customers Report
+2019-02-19 18:20:39.674 [main] DEBUG a00123456.book.BookStore - generating the book report
+2019-02-19 18:20:39.675 [main] DEBUG a00123456.book.io.BooksReport - Printing the Books Report
+2019-02-19 18:20:39.711 [main] DEBUG a00123456.book.io.BooksReport - Printing the Books Report
+2019-02-19 18:20:39.740 [main] DEBUG a00123456.book.BookStore - generating the purchase report
+2019-02-19 18:20:39.741 [main] DEBUG a00123456.book.io.PurchasesReport - Printing the Purchases Report
+2019-02-19 18:20:39.742 [main] DEBUG a00123456.book.io.PurchasesReport - isTotalOptionSet = false
+2019-02-19 18:20:39.742 [main] DEBUG a00123456.book.io.PurchasesReport - isDescendingOptionSet = false
+2019-02-19 18:20:39.747 [main] DEBUG a00123456.book.io.PurchasesReport - Printing the Purchases Report
+2019-02-19 18:20:39.747 [main] DEBUG a00123456.book.io.PurchasesReport - isTotalOptionSet = false
+2019-02-19 18:20:39.747 [main] DEBUG a00123456.book.io.PurchasesReport - isDescendingOptionSet = false
+2019-02-19 18:20:39.752 [main] INFO  a00123456.book.BookStore - 2019-02-20T02:20:39.752428Z
+2019-02-19 18:20:39.752 [main] INFO  a00123456.book.BookStore - Duration: 276 ms
+2019-02-19 18:20:39.752 [main] INFO  a00123456.book.BookStore - Books has stopped
